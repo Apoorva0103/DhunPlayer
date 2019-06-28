@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dhun Player</string>
+    <!-- Category name for pop -->
+    <string name="category_pop">Pop</string>
+    <string name="Collection_pop">Collection Pop</string>
+    <!-- Category name for the jazz -->
+    <string name="category_jazz">Jazz</string>
+    <string name="Collection_jazz">Collection Jazz</string>
+    <!-- Category name for the Electronics -->
+    <string name="category_Electronics">Electronics</string>
+    <string name="Collection_Electronics">Collection Electronics</string>
+    <!-- Category name for the Hip pop -->
+    <string name="category_Hip_pop">Hip Pop</string>
+    <string name="Collection_Hip_pop">Collection Hip Pop</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dhunplayer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_pop"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/Image_View_Width"
+            android:layout_height="@dimen/Image_View_Height"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/Image_View_Margin"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/pop" />
+
+        <TextView
+            android:id="@+id/pop"
+            style="@style/CategoryStyle"
+            android:layout_gravity="center"
+            android:layout_weight="9"
+            android:background="@color/category_pop"
+            android:text="@string/category_pop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_jazz"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/Image_View_Width"
+            android:layout_height="@dimen/Image_View_Height"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/Image_View_Margin"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/jaz" />
+
+        <TextView
+            android:id="@+id/jazz"
+            style="@style/CategoryStyle"
+            android:layout_gravity="center"
+            android:layout_weight="9"
+            android:background="@color/category_jazz"
+            android:text="@string/category_jazz" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_electronics"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/Image_View_Width"
+            android:layout_height="@dimen/Image_View_Height"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/Image_View_Margin"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/electronics" />
+
+        <TextView
+            android:id="@+id/Electronics"
+            style="@style/CategoryStyle"
+            android:layout_gravity="center"
+            android:layout_weight="9"
+            android:background="@color/category_electronics"
+            android:text="@string/category_Electronics" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_hip_pop"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/Image_View_Width"
+            android:layout_height="@dimen/Image_View_Height"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/Image_View_Margin"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/hip" />
+
+        <TextView
+            android:id="@+id/hip_pop"
+            style="@style/CategoryStyle"
+            android:layout_gravity="center"
+            android:layout_weight="9"
+            android:background="@color/category_hip_pop"
+            android:text="@string/category_Hip_pop" />
+    </LinearLayout>
+</LinearLayout>
